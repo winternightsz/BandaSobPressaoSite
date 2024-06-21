@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Galeria",
+  description: "Site da banda Sob Pressão",
+};
+
+
 const GaleriaPage = () => {
     return (
       <div>

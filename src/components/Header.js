@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
-const Header = () => {
+const Header = ({ isHomePage }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-azulPrincipal text-white p-4 shadow-md">
+    <header className={`${isHomePage === 'sim' ? 'bg-transparent' : 'bg-azulPrincipal'} text-white p-4 shadow-md`}>
       <div className="container mx-auto flex justify-between items-center">
         {/* Esquerda */}
         <div className="flex items-center space-x-6">
