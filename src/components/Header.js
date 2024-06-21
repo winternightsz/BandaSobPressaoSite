@@ -32,7 +32,7 @@ const Header = () => {
           <Image
             src="/imagens/logoBandaBranca.png" // Substitua pelo caminho correto da logo da banda
             alt="Logo da Banda"
-            width={80}
+            width={100}
             height={50}
             className="rounded-full"
           />

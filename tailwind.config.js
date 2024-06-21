@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         azulPrincipal: '#1C1E4C',
         azulEmBaixo: '#0F3E96',
-        chosenBlueHover: '#5d78e4',
+        azulNavbarFica: '#15173E',
       },
     },
   },
