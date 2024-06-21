@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-800 text-white p-4 shadow-md">
+    <header className="bg-azulPrincipal text-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         {/* Esquerda */}
         <div className="flex items-center space-x-6">
@@ -30,9 +30,9 @@ const Header = () => {
         {/* Centro */}
         <div className="flex justify-center items-center flex-1">
           <Image
-            src="/logo.png" // Substitua pelo caminho correto da logo da banda
+            src="/imagens/logoBandaBranca.png" // Substitua pelo caminho correto da logo da banda
             alt="Logo da Banda"
-            width={50}
+            width={80}
             height={50}
             className="rounded-full"
           />
@@ -48,7 +48,7 @@ const Header = () => {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-800 text-white">
+        <div className="md:hidden bg-azulPrincipal text-white">
           <nav className="flex flex-col space-y-4 p-4">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/repertorio">Repertório</NavLink>

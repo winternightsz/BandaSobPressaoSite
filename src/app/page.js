@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Home",
-  description: "Site da banda Sob Pressão",
+  title: "Banda Sob Pressão",
+  description: "Site da Banda Sob Pressão",
 };
 
 export default function Home() {
