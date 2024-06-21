@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.home-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/imagens/homePageFoto.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}

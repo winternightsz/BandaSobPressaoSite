@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import "./globals.css";
 export const metadata = {
   title: "Banda Sob Pressão",
   description: "Site da Banda Sob Pressão",
@@ -7,6 +7,8 @@ export const metadata = {
 
 export default function Home() {
   return (
+    <>
+    <div className="home-background"></div>
     <main className="flex min-h-screen bg-gradient-to-b from-azulPrincipal to-azulEmBaixo flex-col items-center justify-between p-24">
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-8">Bem-vindo ao Site da Banda Sob Pressão</h1>
@@ -22,5 +24,6 @@ export default function Home() {
         </p>
       </div>
     </main>
+    </>
   );
 }
