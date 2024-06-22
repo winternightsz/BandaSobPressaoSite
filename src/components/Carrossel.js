@@ -36,13 +36,13 @@ export default function Carrossel() {
         onClick={prevSlide}
         className="absolute left-0 top-1/2 transform -translate-y-1/2 p-2 bg-gray-800 bg-opacity-50 rounded-full text-white"
       >
-        Prev
+        .
       </button>
       <button
         onClick={nextSlide}
         className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 bg-gray-800 bg-opacity-50 rounded-full text-white"
       >
-        Next
+        .
       </button>
     </div>
   );
