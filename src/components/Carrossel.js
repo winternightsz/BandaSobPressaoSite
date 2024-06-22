@@ -1,8 +1,9 @@
+"use client";
 import { useState } from 'react';
 import Image from 'next/image';
 import { fotosGaleria } from '../dados/fotosGaleria';
 
-export default function Carousel() {
+export default function Carrossel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
