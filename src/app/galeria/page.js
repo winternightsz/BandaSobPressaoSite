@@ -1,17 +1,10 @@
-export const metadata = {
-  title: "Galeria",
-  description: "Site da banda Sob Pressão",
-};
+import Carousel from '../components/Carousel';
 
-
-const GaleriaPage = () => {
-    return (
-      <div>
-        <h2>Galeria</h2>
-        <p>Esta é a página de galeria da banda.</p>
-      </div>
-    );
-  };
-  
-  export default GaleriaPage;
-  
+export default function Galeria() {
+  return (
+    <div className="p-8">
+      <h1 className="text-3xl font-bold text-center mb-8">Galeria</h1>
+      <Carousel />
+    </div>
+  );
+}
