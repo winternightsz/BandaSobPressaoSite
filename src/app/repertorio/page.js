@@ -18,7 +18,7 @@ const Repertorio = () => {
 
   return (
     <div className="flex justify-center flex-col items-center min-h-screen bg-blue-600 text-white">     
-      <div className="text-center lg:mt-40 sm:mt-40 mb-10">
+      <div className="text-center  mb-10">
         <div className="text-center mt-20 mb-10 bg-opacity-70 " >
         <div className="vynil"></div>
           <h1 className="text-4xl font-bold">REPERTÓRIO</h1>

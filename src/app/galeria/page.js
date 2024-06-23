@@ -9,7 +9,7 @@ export const metadata = {
 export default function Galeria() {
   return (
     <div className="p-8 bg-gradient-to-b from-azulPrincipal to-azulEmBaixo">
-      <h1 className="text-3xl lg:mt-40 font-bold text-center mb-8">Galeria</h1>
+      <h1 className="text-3xl font-bold text-center mb-8">Galeria</h1>
 
       <div className="w-full max-w-screen-lg mx-auto lg:mt-16 sm:mt-2 lg:p-8 sm:p-2">
       <Carrossel />

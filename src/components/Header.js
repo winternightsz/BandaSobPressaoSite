@@ -14,7 +14,7 @@ const Header = ({ isHomePage }) => {
 
   return (
     <>
-      <header className={`${isHomePage === 'sim' ? (isOpen ? 'bg-azulPrincipal' : 'bg-transparent') : 'bg-azulPrincipal'} text-white p-2 fixed w-full z-10 transition-colors duration-300`}>
+      <header className={`${isHomePage === 'sim' ? (isOpen ? 'bg-azulPrincipal' : 'bg-transparent') : 'bg-azulPrincipal'} text-white py-4 px-8 fixed w-full z-10 transition-colors duration-300`}>
         <div className="container mx-auto flex justify-between items-center">
           {/* Esquerda */}
           <div className="flex items-center space-x-6">
@@ -62,7 +62,7 @@ const Header = ({ isHomePage }) => {
         )}
       </header>
       {/* Espaço abaixo do header para evitar sobreposição */}
-      <div className="h-16 md:h-0"></div>
+      <div className="h-16"></div>
     </>
   );
 };
