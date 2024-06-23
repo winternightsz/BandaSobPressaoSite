@@ -1,11 +1,22 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { fotosGaleria } from '../dados/fotosGaleria';
 
 export default function Carrossel() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setWindowWidth(window.innerWidth);
+      
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }
+  }, []);
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? fotosGaleria.length - 1 : prevIndex - 1));
@@ -28,8 +39,8 @@ export default function Carrossel() {
               <Image
                 src={src}
                 alt={`Foto ${index + 1}`}
-                width={index === currentIndex ? (window.innerWidth > 768 ? 800 : 1200) : 0}
-                height={index === currentIndex ? (window.innerWidth > 768 ? 1000 : 600) : 0}
+                width={index === currentIndex ? (windowWidth > 768 ? 800 : 1200) : 0}
+                height={index === currentIndex ? (windowWidth > 768 ? 1000 : 600) : 0}
                 className="shadow-md rounded-md custom-shadow shadow-md"
               />
             </div>
