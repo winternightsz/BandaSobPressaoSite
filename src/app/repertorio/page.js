@@ -18,9 +18,8 @@ const Repertorio = () => {
 
   return (
     <div className="flex justify-center flex-col items-center min-h-screen bg-blue-600 text-white">     
-      <div className="text-center  mb-10">
-        <div className="text-center mt-20 mb-10 bg-opacity-70 " >
-        <div className="vynil"></div>
+      <div className="text-center bg-cover bg-center" style={{ backgroundImage: "url('/imagens/foto-vinil-repertorio.png')" }}>
+        <div className="text-center mt-20 mb-20 bg-opacity-70 p-5">
           <h1 className="text-4xl font-bold">REPERTÓRIO</h1>
           <p>Clique no play e escute a playlist para cada gênero no Spotify!</p>
         </div>
