@@ -2,13 +2,13 @@ import React from 'react';
 
 const CardServicosHome = ({ imagem, titulo, descricao }) => {
   return (
-    <div className="flex items-center p-4">
-      <div className="bg-blue-500 rounded-full shadow-lg shadow-blue-800 p-4">
-        <img src={imagem} alt={titulo} className="w-16 h-16 object-cover rounded-full" />
+    <div className="flex flex-col md:flex-row items-center md:items-start p-4">
+      <div className="bg-blue-500 rounded-md shadow-lg shadow-blue-800 p-4 mb-4 md:mb-0">
+        <img src={imagem} alt={titulo} className="w-16 h-16 object-cover" />
       </div>
-      <div className="ml-4">
+      <div className="text-center md:text-left md:ml-8">
         <h4 className="text-lg font-semibold">{titulo}</h4>
-        <p className="mt-2">{descricao}</p>
+        <p className="mt-2 md:ml-4">{descricao}</p>
       </div>
     </div>
   );

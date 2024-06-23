@@ -3,6 +3,11 @@ import CardMusica from '@/components/CardMusica';
 import dadosRepertorio from '@/dados/dadosRepertorio';
 import { PlayIcon } from '@heroicons/react/solid';
 
+export const metadata = {
+  title: "Repertório",
+  description: "Site da banda Sob Pressão",
+};
+
 const Repertorio = () => {
   const pegarMusicas = (musicas) => {
     return musicas.map((musica, index) => (
