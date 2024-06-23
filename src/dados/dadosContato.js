@@ -1,32 +1,32 @@
 export const dadosContato = [
     {
       nome: 'Whatsapp',
-      imagem: '/path-to-your-image1.jpg',
+      imagem: '/imagens/itens_footer/whatsapp.png',
       cor: 'bg-whatsappCor'
     },
     {
       nome: 'Instagram',
-      imagem: '/path-to-your-image2.jpg',
+      imagem: '/imagens/itens_footer/instagram.png',
       cor: 'bg-instagramCor'
     },
     {
       nome: 'YouTube',
-      imagem: '/path-to-your-image3.jpg',
+      imagem: '/imagens/itens_footer/youtube.png',
       cor: 'bg-youtubeCor'
     },
     {
-      nome: 'FaceBook',
-      imagem: '/path-to-your-image4.jpg',
+      nome: 'Facebook',
+      imagem: '/imagens/itens_footer/facebook.png',
       cor: 'bg-facebookCor'
     },
     {
       nome: 'Gmail',
-      imagem: '/path-to-your-image5.jpg',
+      imagem: '/imagens/itens_footer/gmail.png',
       cor: 'bg-emailCor'
     },
     {
       nome: 'Spotify',
-      imagem: '/path-to-your-image6.jpg',
+      imagem: '/imagens/itens_footer/spotify.png',
       cor: 'bg-spotifyCor'
     },
   ];
