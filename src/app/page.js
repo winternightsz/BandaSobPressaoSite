@@ -25,15 +25,15 @@ export default function Home() {
       <div className="transition-blur"></div>
       {/* Seção para o restante do conteúdo */}
       <div className="py-4 main-page flex-grow mt-0 bg-gradient-to-b from-azulPrincipal to-azulEmBaixo flex flex-col items-center justify-center">
-        <h2 className="text-3xl text-center mt-12 mb-8">O que a <span className="font-bold ">Banda SobPressão</span> oferece</h2>
+        <h2 className="text-3xl text-center md:text-4xl mt-12 mb-8">O que a <span className="font-bold ">Banda SobPressão</span> oferece:</h2>
         <div className="p-4 w-full max-w-screen-lg mx-auto">
           <CardHomeGrid />
         </div>
 
         <div className="py-8 w-full max-w-screen-lg mx-auto mt-8">
-          <h1 className="pb-8 text-3xl text-center md:text-4xl font-semibold">
+          <h2 className="pb-8 text-3xl text-center md:text-4xl font-semibold">
             Venha nos conhecer e participe de nosso ensaio!
-          </h1>
+          </h2>
           <Ensaio />
         </div>
         <div className=" py-4 w-full max-w-screen-lg mx-auto mt-8">
