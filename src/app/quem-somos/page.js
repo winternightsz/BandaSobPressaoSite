@@ -22,15 +22,10 @@ const QuemSomosPage = () => {
                     height={200}
                     className="my-2"
                 />
-                <Image
-                    src="/imagens/foto-quemsomos-2.jpeg"
-                    alt="Descrição da Imagem 2"
-                    width={700}
-                    height={200}
-                    className="my-2"
-                />
+                <p className="text-lg text-center my-4">Da esquerda para direita: Hercilio, Graziela, Daniel, Gabriel, Filipe, Kaue e Marcos.  </p>
+                
             </div>
-            <p className="text-lg text-center my-4">Outro parágrafo com informações adicionais.</p>
+
 
         </div>
     );

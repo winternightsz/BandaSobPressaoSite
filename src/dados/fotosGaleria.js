@@ -1,4 +1,5 @@
 export const fotosGaleria = [
+    '/imagens/foto-quemsomos-2.jpeg',
     '/imagens/FotoLadoJuntos.png',
     '/imagens/bandafrentednv.png',
     '/imagens/bandafrente.png',
