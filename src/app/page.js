@@ -2,6 +2,7 @@ import Image from "next/image";
 import "./globals.css";
 import CardHomeGrid from "../components/CardHomeGrid";
 import Ensaio from "../components/Ensaio";
+import PremiosContainer from "../components/PremiosContainer";
 
 export const metadata = {
   title: "Banda Sob Pressão",
@@ -36,7 +37,8 @@ export default function Home() {
           <Ensaio />
         </div>
         <div className="w-full max-w-screen-lg mx-auto mt-8">
-          
+          <h4 className="text-2xl text-center ">Alguns dos prêmios da banda</h4>
+          <PremiosContainer />
         </div>
       </div>
     </div>
