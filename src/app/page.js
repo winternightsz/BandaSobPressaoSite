@@ -24,19 +24,19 @@ export default function Home() {
       </div>
       <div className="transition-blur"></div>
       {/* Seção para o restante do conteúdo */}
-      <div className="main-page flex-grow mt-0 bg-gradient-to-b from-azulPrincipal to-azulEmBaixo flex flex-col items-center justify-center">
-        <h2 className="text-3xl mt-8">Oque oferecemos</h2>
+      <div className="py-4 main-page flex-grow mt-0 bg-gradient-to-b from-azulPrincipal to-azulEmBaixo flex flex-col items-center justify-center">
+        <h2 className="text-3xl mt-8">O que oferecemos</h2>
         <div className="p-4 w-full max-w-screen-lg mx-auto">
           <CardHomeGrid />
         </div>
 
-        <div className="w-full max-w-screen-lg mx-auto mt-8">
-          <h1 className="text-3xl text-center md:text-4xl">
+        <div className="py-8 w-full max-w-screen-lg mx-auto mt-8">
+          <h1 className="pb-8 text-3xl text-center md:text-4xl font-semibold">
             Venha nos conhecer e participe de nosso ensaio!
           </h1>
           <Ensaio />
         </div>
-        <div className="w-full max-w-screen-lg mx-auto mt-8">
+        <div className=" py-4 w-full max-w-screen-lg mx-auto mt-8">
           <h4 className="text-2xl text-center ">Alguns dos prêmios da banda</h4>
           <PremiosContainer />
         </div>
