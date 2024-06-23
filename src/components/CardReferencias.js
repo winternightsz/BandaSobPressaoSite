@@ -3,15 +3,17 @@ import Image from 'next/image';
 export default function CardReferencias({ nome, localizacao, tipoEvento, linkFacebook, foto }) {
   return (
     <div className="bg-white shadow-lg rounded-lg p-4 mb-4 transform transition duration-500 hover:scale-105">
-      <div className="relative p-2">
-        <div className="absolute top-0 left-0 m-2">
-          <p className="text-sm text-azulPrincipal font-semibold">{nome}</p>
+      <div className="p-2">
+        <div className="flex flex-col md:flex-row md:justify-between">
+          <div className="text-center md:text-left mb-2 md:mb-0">
+            <p className="text-sm text-azulPrincipal font-semibold">{nome}</p>
+          </div>
+          <div className="text-center md:text-right">
+            <p className="text-sm text-azulPrincipal font-semibold">{localizacao}</p>
+            <p className="text-sm text-azulPrincipal">{tipoEvento}</p>
+          </div>
         </div>
-        <div className="absolute top-0 right-0 m-2 text-right">
-          <p className="text-sm text-azulPrincipal font-semibold">{localizacao}</p>
-          <p className="text-sm text-azulPrincipal">{tipoEvento}</p>
-        </div>
-        <div className="mt-16 flex justify-center">
+        <div className="mt-4 flex justify-center">
           <a href={linkFacebook} target="_blank" rel="noopener noreferrer">
             <Image
               src={foto}
