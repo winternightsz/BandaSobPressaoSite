@@ -16,8 +16,8 @@ export default function Carrossel() {
   };
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto">
-      <div className="h-64 md:h-96 lg:h-128 overflow-hidden rounded-lg flex items-center justify-center">
+    <div className="relative w-full p-8 max-w-4xl mx-auto">
+      <div className="h-64 mb-16 mt-12 md:h-96 lg:h-128 overflow-hidden rounded-lg flex items-center justify-center">
         {fotosGaleria.map((src, index) => (
           <div
             key={index}
@@ -30,7 +30,7 @@ export default function Carrossel() {
                 alt={`Foto ${index + 1}`}
                 width={index === currentIndex ? (window.innerWidth > 768 ? 800 : 1200) : 0}
                 height={index === currentIndex ? (window.innerWidth > 768 ? 1000 : 600) : 0}
-                className=" rounded-md"
+                className="shadow-lg rounded-md drop-shadow-[4px_4px_6px_rgba(0,112,255,0.3)]"
               />
             </div>
           </div>
@@ -38,13 +38,13 @@ export default function Carrossel() {
       </div>
       <button
         onClick={prevSlide}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 p-2 bg-gray-800 bg-opacity-50 rounded-full text-white"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 text-7xl  text-blue-300"
       >
         &lt;
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 bg-gray-800 bg-opacity-50 rounded-full text-white"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 text-7xl text-blue-300"
       >
         &gt;
       </button>
