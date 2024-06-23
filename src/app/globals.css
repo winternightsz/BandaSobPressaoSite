@@ -85,4 +85,11 @@ body {
 .main-page{
   margin-top: -6px;
 }
-
+.vynil{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-image: url("/imagens/foto-vinil-repertorio.png");
+}
