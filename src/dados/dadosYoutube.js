@@ -1,23 +1,23 @@
 export const youtubeVideos = [
     {
-      title: 'Vídeo 1',
-      thumbnail: 'https://img.youtube.com/vi/VIDEO_ID_1/0.jpg',
-      videoUrl: 'https://www.youtube.com/watch?v=VIDEO_ID_1'
+      title: 'Cheia de Manias - Banda Sobpressão',
+      thumbnail: 'https://i.ytimg.com/vi/6CLlmg-CZ4Q/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEMoQTAP&rs=AOn4CLBNwuHtZaTMkWHfELmgiinLfatJtA',
+      videoUrl: 'https://www.youtube.com/watch?v=6CLlmg-CZ4Q'
     },
     {
-      title: 'Vídeo 2',
-      thumbnail: 'https://img.youtube.com/vi/VIDEO_ID_2/0.jpg',
-      videoUrl: 'https://www.youtube.com/watch?v=VIDEO_ID_2'
+      title: 'Treasure (Cover) - Banda Sob Pressão',
+      thumbnail: 'https://i.ytimg.com/vi/uCibZwSSiQc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLih9ktXlFnf6BxD7p9xnItcYSOA',
+      videoUrl: 'https://www.youtube.com/watch?v=uCibZwSSiQc'
     },
     {
-      title: 'Vídeo 3',
-      thumbnail: 'https://img.youtube.com/vi/VIDEO_ID_3/0.jpg',
-      videoUrl: 'https://www.youtube.com/watch?v=VIDEO_ID_3'
+      title: 'Sol - Banda Sobpressão',
+      thumbnail: 'https://i.ytimg.com/vi/mBWyZ_5aNZA/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhWIEgocjAP&rs=AOn4CLDAZWSZrXaZIpAXsPD-YajVdACkhg',
+      videoUrl: 'https://www.youtube.com/watch?v=mBWyZ_5aNZA'
     },
     {
-      title: 'Vídeo 4',
-      thumbnail: 'https://img.youtube.com/vi/VIDEO_ID_4/0.jpg',
-      videoUrl: 'https://www.youtube.com/watch?v=VIDEO_ID_4'
+      title: 'I Want To Break Free (Cover) - Banda Sob Pressão',
+      thumbnail: 'https://i.ytimg.com/vi/FOzxXE3ArSc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7bdj0tFbnj8-EcECT8DtoxhDGnA',
+      videoUrl: 'https://www.youtube.com/watch?v=FOzxXE3ArSc'
     },
     // Adicione mais vídeos conforme necessário
   ];
