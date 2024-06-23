@@ -87,120 +87,120 @@ const dadosRepertorio = {
   oktoberFest: [
     {
       imagem: '/path/to/livin-on-a-prayer.jpg',
-      nomeMusica: "livin' on a prayer",
-      artista: "Bon Jovi"
+      nomeMusica: "Barril de Chopp",
+      artista: "Banda Ghermania"
     },
     {
       imagem: '/path/to/paradise-city.jpg',
-      nomeMusica: "paradise city",
-      artista: "Guns N' Roses"
+      nomeMusica: "Zic Zac",
+      artista: "Os Montanari"
     },
     {
       imagem: '/path/to/hells-bells.jpg',
-      nomeMusica: "hells bells",
-      artista: "AC/DC"
+      nomeMusica: "Marreca",
+      artista: "Banda Cavalinho"
     }
   ],
   rockInternacional: [
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "I Want To Break Free",
+          artista: "Queen"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
+          nomeMusica: "Sweet Child O' Mine",
           artista: "Guns N' Roses"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
+          nomeMusica: "Highway Hell",
           artista: "AC/DC"
         }
   ],
   pagode: [
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "Cheia de Manias",
+          artista: "Raça Negra"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Coração Radiante",
+          artista: "Grupo Revelação"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Pimpolho",
+          artista: "Art Popular"
         }
   ],
   musicaGaucha: [
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "Do Fundo da Grota",
+          artista: "BAITACA"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Camionete Branca",
+          artista: "Paulinho Mocelin"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Mercedita",
+          artista: "Grupo Querência"
         }
   ],
   forro: [
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "Rindo À Toa",
+          artista: "Falamansa"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Xote da alegria",
+          artista: "Falamansa"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Esperando na janela",
+          artista: "Gilberto Gil"
         }
   ],
   funk: [
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "Só As Cachorras",
+          artista: "Bonde do Tigrão"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Funk Rave",
+          artista: "Anitta"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Rainha da favela",
+          artista: "Ludmilla"
         }
   ],
   reggae: [
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "Vagabundo confesso",
+          artista: "Dazaranha"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Reggae das Tramanda",
+          artista: "Armandinho"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Toca uma Regguera ai",
+          artista: "Armandinho"
         }
   ],
   popRockNacional: [ //Sertanejo Universitario
