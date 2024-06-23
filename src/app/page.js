@@ -25,7 +25,7 @@ export default function Home() {
       <div className="transition-blur"></div>
       {/* Seção para o restante do conteúdo */}
       <div className="py-4 main-page flex-grow mt-0 bg-gradient-to-b from-azulPrincipal to-azulEmBaixo flex flex-col items-center justify-center">
-        <h2 className="text-3xl text-center md:text-4xl mt-12 mb-8">O que a <span className="font-bold ">Banda SobPressão</span> oferece:</h2>
+        <h2 className="text-3xl text-center md:text-4xl mt-12 mb-8 roboto-thin">O que a <span className="font-bold ">Banda SobPressão</span> oferece:</h2>
         <div className="p-4 w-full max-w-screen-lg mx-auto">
           <CardHomeGrid />
         </div>

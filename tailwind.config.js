@@ -11,6 +11,10 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        robotocondensed: ['Roboto Condensed', 'sans-serif'],
+      },
       colors: {
         azulPrincipal: '#1C1E4C',
         azulEmBaixo: '#0F3E96',
