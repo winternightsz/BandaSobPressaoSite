@@ -17,7 +17,7 @@ const Ensaio = () => {
         </div>
       </div>
       <div className="flex flex-col items-center md:items-end mt-4 md:mt-0 md:w-1/2">
-        <h1 className="pt-4 text-3xl font-bold mb-4 w-full text-center">Nos contate para</h1>
+        <h1 className="pt-4 text-3xl font-bold w-full text-center">Nos contate para</h1>
         <h1 className="pb-4 text-3xl font-bold mb-4 w-full text-center">agendar um horário!</h1>
         <a href="#" className="bg-whatsappCor text-white m-auto px-4 py-2 rounded-lg shadow hover:bg-blue-600 w-3/6 text-center">WhatsApp</a>
       </div>
