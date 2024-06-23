@@ -1,34 +1,32 @@
 import Image from "next/image";
 import "./globals.css";
+
 export const metadata = {
   title: "Banda Sob Pressão",
   description: "Site da Banda Sob Pressão",
 };
 
+
 export default function Home() {
   return (
-    <>
-      
-      <main className="flex min-h-screen  flex-col items-center justify-between p-24">
-      <div className="home-background "></div>
-        <div className="text-center">
-          <h1 className="text-4xl font-bold mb-8">
-            Bem-vindo ao Site da Banda Sob Pressão
-          </h1>
-          <Image
-            src="/path-to-your-image.jpg" // Altere para o caminho correto da sua imagem
-            alt="Imagem da Banda Sob Pressão"
-            width={600}
-            height={400}
-            className="rounded-lg shadow-md"
-          />
-          <p className="mt-8 text-lg">
-            Esta é a página inicial do site da banda. Aqui você pode encontrar
-            todas as informações sobre nossa música, agenda de shows e muito
-            mais.
-          </p>
+    <div className="flex flex-col min-h-screen">
+      {/* Contêiner para a imagem de fundo */}
+      <div className="relative w-full h-[48vh]">
+        <div className="hero-section"></div>
+        <div className="hero-overlay">
+          <h1 className="text-4xl font-bold text-white">Bem-vindo</h1>
+          <p className="text-lg text-white mt-4">Texto na metade superior</p>
         </div>
-      </main>
-    </>
+      </div>
+      <div className="transition-blur"></div>
+      {/* Seção para o restante do conteúdo */}
+      <div className="main-page flex-grow mt-0 bg-gradient-to-b from-azulPrincipal to-azulEmBaixo flex flex-col items-center justify-center">
+        <h2 className="text-3xl font-semibold mt-8">Conteúdo da página</h2>
+        <p className="text-lg mt-4">Mais informações aqui.</p>
+      </div>
+    </div>
   );
 }
+
+
+

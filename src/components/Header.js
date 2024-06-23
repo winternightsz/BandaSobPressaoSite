@@ -13,7 +13,7 @@ const Header = ({ isHomePage }) => {
   };
 
   return (
-    <header className={`${isHomePage === 'sim' ? 'bg-transparent' : 'bg-azulPrincipal'} text-white p-4 shadow-md`}>
+    <header className={`${isHomePage === 'sim' ? 'bg-transparent' : 'bg-azulPrincipal'} text-white p-4 `}>
       <div className="container mx-auto flex justify-between items-center">
         {/* Esquerda */}
         <div className="flex items-center space-x-6">
