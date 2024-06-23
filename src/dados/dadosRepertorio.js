@@ -2,86 +2,86 @@ const dadosRepertorio = {
   rockAnos60: [
     {
       imagem: '/path/to/livin-on-a-prayer.jpg',
-      nomeMusica: "livin' on a prayer",
-      artista: "Bon Jovi"
+      nomeMusica: "Twist And Shout",
+      artista: "The Beatles"
     },
     {
       imagem: '/path/to/paradise-city.jpg',
-      nomeMusica: "paradise city",
-      artista: "Guns N' Roses"
+      nomeMusica: "Blue Sweat Shoes",
+      artista: "Elvis Presley"
     },
     {
       imagem: '/path/to/hells-bells.jpg',
-      nomeMusica: "hells bells",
-      artista: "AC/DC"
+      nomeMusica: "Johnny Be Good",
+      artista: "Chuck Berry"
     }
   ],
   rockNacional: [
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "Proibida Pra Mim",
+          artista: "Charlie Brown Jr."
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Mulher De Fases",
+          artista: "Raimundos"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Ana Julia",
+          artista: "Los Hermanos"
         }
   ],
-  sertanejo: [
+  sertanejo: [ //Sertanejo Boteco
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
+          nomeMusica: "Boate Azul",
           artista: "Bon Jovi"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Te Amar Foi Ilusao",
+          artista: "Bruno e Marrone"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Evidencias",
+          artista: "Chitãozinho & Xororó"
         }
   ],
-  baladaAnos80: [
+  baladaAnos80: [ //tirar
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "You Are The One That I Want",
+          artista: "John Travolta and Olivia Newton-John"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Footlose",
+          artista: "Kenny Loggins"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Whisky a Go Go",
+          artista: "Roupa Nova"
         }
   ],
   discoMusic: [
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "Stayin' Alive",
+          artista: "Bee Gees"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Dancing Queen",
+          artista: "Abba"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "I Will Survive",
+          artista: "Gloria Gaynor"
         }
   ],
   oktoberFest: [
@@ -203,23 +203,23 @@ const dadosRepertorio = {
           artista: "AC/DC"
         }
   ],
-  popRockNacional: [
+  popRockNacional: [ //Sertanejo Universitario
       {
           imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "livin' on a prayer",
-          artista: "Bon Jovi"
+          nomeMusica: "Erro Gostoso",
+          artista: "Simone Mendes"
         },
         {
           imagem: '/path/to/paradise-city.jpg',
-          nomeMusica: "paradise city",
-          artista: "Guns N' Roses"
+          nomeMusica: "Morena",
+          artista: "Clayton & Romário"
         },
         {
           imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "hells bells",
-          artista: "AC/DC"
+          nomeMusica: "Canudinho",
+          artista: "Gusttavo Lima"
         }
-  ]
+  ],
 };
 
 export default dadosRepertorio;

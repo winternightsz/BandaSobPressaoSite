@@ -14,11 +14,9 @@ const Footer = () => {
           />
         </div>
 
-        <div className="flex-1 text-black text-center">
-          <p>&copy; 2024 My Band. Todos os direitos reservados.</p>
-        </div>
+        
 
-        <div className="flex-1 flex justify-center md:justify-end w-full md:w-auto">
+        <div className="flex-1 flex items-center justify-center md:justify-end w-full md:w-auto">
           <ul className="flex flex-wrap justify-center space-x-4">
             <li><a href="#">
               <Image
@@ -76,6 +74,13 @@ const Footer = () => {
             </a></li>
           </ul>
         </div>
+
+        <div className="flex-1 text-black text-center">
+          <p>&copy; 2024 My Band. Todos os direitos reservados.</p>
+        </div>
+
+
+
       </div>
     </footer>
   );
