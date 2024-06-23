@@ -1,11 +1,12 @@
 import Image from "next/image";
 import "./globals.css";
+import CardHomeGrid from '../components/CardHomeGrid';
+import Ensaio from '../components/Ensaio';
 
 export const metadata = {
   title: "Banda Sob Pressão",
   description: "Site da Banda Sob Pressão",
 };
-
 
 export default function Home() {
   return (
@@ -23,10 +24,16 @@ export default function Home() {
       <div className="main-page flex-grow mt-0 bg-gradient-to-b from-azulPrincipal to-azulEmBaixo flex flex-col items-center justify-center">
         <h2 className="text-3xl font-semibold mt-8">Conteúdo da página</h2>
         <p className="text-lg mt-4">Mais informações aqui.</p>
+
+        <div className="p-4 w-full max-w-screen-lg mx-auto">
+          <CardHomeGrid />
+        </div>
+
+        <div className="w-full max-w-screen-lg mx-auto mt-8">
+          <Ensaio />
+        </div>
+
       </div>
     </div>
   );
 }
-
-
-
